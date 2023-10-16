@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #060610;
+}
+
+.landing-page {
+    width: 90%;
+    height: 100vh;
+    margin: auto;
+    padding: 0 60px;
+    background-image: url(img/background.png);
+    background-size: cover;
+    position: relative;
+}
+
+.landing-page .header {
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.landing-page .link {
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.landing-page .link a{
+    color: white;
+    text-decoration: none;
+}
+
+.landing-page .link a:hover{
+    color: rgb(48, 82, 233);
+}
+
+.landing-page .deskripsi {
+    width: 600px;
+    height: 150px;
+    margin-top: 200px;
+    color: white;
+}
+
+.landing-page .deskripsi .nama {
+    font-size: 24px;
+}
+
+.landing-page .deskripsi .status {
+    font-size: 32px;
+    margin-top: 20px;
+}
+
+.landing-page .gambar {
+    position: absolute;
+    right: 170px;
+    top: 220px;
+}
+
+.landing-page .tombol {
+    width: 310px;
+    margin-left: 50px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.landing-page .tombol img {
+    width: 150px;
+}
