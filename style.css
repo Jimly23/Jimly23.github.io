@@ -13,7 +13,7 @@ body {
 .landing-page {
     height: 100vh;
     margin: auto;
-    background-image: url(img/background.png);
+    background-image: url(img/homepage.png);
     background-size: cover;
     position: relative;
 }
@@ -24,6 +24,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 0 60px;
+    padding-right: 100px;
 }
 
 .landing-page .link {
