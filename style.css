@@ -13,7 +13,7 @@ body {
 .landing-page {
     height: 100vh;
     margin: auto;
-    background-image: url(img/homepage.png);
+    background-image: url(img/background.png);
     background-size: cover;
     position: relative;
 }
